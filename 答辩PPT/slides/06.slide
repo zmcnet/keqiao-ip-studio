@@ -1,0 +1,26 @@
+<Slide style={{ width: 1280, height: 720, position: 'relative', background: '#0E3F8C', fontFamily: '微软雅黑' }}>
+    <Image src='assets/ui_plan.png' style={{ position: 'absolute', top: 0, left: 0, width: 1280, height: 720, objectFit: 'cover' }} />
+    <Box style={{ position: 'absolute', top: 0, left: 0, width: 1280, height: 720, background: 'rgba(14,63,140,0.80)' }} />
+    <Box style={{ position: 'absolute', top: 0, right: 0, width: 470, height: 720, background: 'linear-gradient(90deg, rgba(14,63,140,0) 0%, rgba(11,52,128,0.55) 100%)' }} />
+
+    <Text style={{ position: 'absolute', top: 148, left: 90, fontSize: 172, fontWeight: 'bold', color: '#3D7BD9', lineHeight: 1.0 }}>02</Text>
+    <Box style={{ position: 'absolute', top: 372, left: 92, width: 100, height: 6, background: '#C0392B' }} />
+    <Text style={{ position: 'absolute', top: 396, left: 90, fontSize: 56, fontWeight: 'bold', color: '#FFFFFF', letterSpacing: 3, lineHeight: 1.1 }}>技术方案：创编一体全链路</Text>
+
+    <Box style={{ position: 'absolute', top: 502, left: 92, flexDirection: 'column', gap: 16 }}>
+        <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 16 }}>
+            <Box style={{ width: 10, height: 10, background: '#C0392B', borderRadius: 5 }} />
+            <Text style={{ fontSize: 21, color: '#DCE8F8' }}>五环流水线架构，结构化项目模型驱动下游全链路</Text>
+        </Box>
+        <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 16 }}>
+            <Box style={{ width: 10, height: 10, background: '#C0392B', borderRadius: 5 }} />
+            <Text style={{ fontSize: 21, color: '#DCE8F8' }}>核心创新「角色一致性锚定」，破解跨场景换脸难题</Text>
+        </Box>
+    </Box>
+
+    <Box style={{ position: 'absolute', top: 690, left: 90, flexDirection: 'row', alignItems: 'center', gap: 12 }}>
+        <Text style={{ fontSize: 14, color: '#8FB0E0' }}>柯桥 · 水乡IP造物台</Text>
+        <Text style={{ fontSize: 14, color: '#5E7EB8' }}>|</Text>
+        <Text style={{ fontSize: 14, color: '#8FB0E0' }}>06 / 14</Text>
+    </Box>
+</Slide>

@@ -1,0 +1,77 @@
+<Slide style={{ width: 1280, height: 720, position: 'relative', background: '#FFFFFF', fontFamily: '微软雅黑' }}>
+    <Box style={{ position: 'absolute', top: 30, left: 46, width: 1188, flexDirection: 'column', gap: 6 }}>
+        <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 14 }}>
+            <Box style={{ width: 6, height: 32, background: '#C0392B' }} />
+            <Text style={{ fontSize: 34, fontWeight: 'bold', color: '#1A2230' }}>创编一体 · 全链路五环架构</Text>
+        </Box>
+        <Text style={{ fontSize: 17, color: '#8B97A8', marginLeft: 20 }}>意图理解 → 结构化策划 → 角色资产锁定 → 分镜生成 → 时间轴预览 → 成片导出</Text>
+    </Box>
+
+    <svg width={1200} height={72} viewBox='0 0 1200 72' style={{ position: 'absolute', top: 122, left: 40 }}>
+        <line x1='120' y1='40' x2='1080' y2='40' stroke='#D6DCE5' strokeWidth='3' />
+        <circle cx='120' cy='40' r='19' fill='#1E4FA8' />
+        <text x='120' y='47' fontSize='18' fontWeight='bold' fill='#FFFFFF' textAnchor='middle'>01</text>
+        <circle cx='360' cy='40' r='19' fill='#1E4FA8' />
+        <text x='360' y='47' fontSize='18' fontWeight='bold' fill='#FFFFFF' textAnchor='middle'>02</text>
+        <circle cx='600' cy='40' r='19' fill='#1E4FA8' />
+        <text x='600' y='47' fontSize='18' fontWeight='bold' fill='#FFFFFF' textAnchor='middle'>03</text>
+        <circle cx='840' cy='40' r='19' fill='#1E4FA8' />
+        <text x='840' y='47' fontSize='18' fontWeight='bold' fill='#FFFFFF' textAnchor='middle'>04</text>
+        <circle cx='1080' cy='40' r='19' fill='#C0392B' />
+        <text x='1080' y='47' fontSize='18' fontWeight='bold' fill='#FFFFFF' textAnchor='middle'>05</text>
+    </svg>
+
+    <Box style={{ position: 'absolute', top: 210, left: 40, width: 1200, flexDirection: 'row', gap: 18 }}>
+        <Box style={{ width: 218, flexDirection: 'column', gap: 9, padding: 16, background: '#F7F9FC', borderRadius: 8, border: { top: { width: 4, color: '#1E4FA8' } } }}>
+            <Text style={{ fontSize: 19, fontWeight: 'bold', color: '#1A2230' }}>智能策划</Text>
+            <Text style={{ fontSize: 14, color: '#4A5568', lineHeight: 1.4 }}>一句创意（支持语音）→ LLM 输出结构化项目模型：世界观 + 角色 + 分镜脚本</Text>
+            <Text style={{ fontSize: 13, color: '#1E4FA8', fontWeight: 'bold', marginTop: 'auto' }}>senseaudio-s2</Text>
+        </Box>
+
+        <Box style={{ width: 218, flexDirection: 'column', gap: 9, padding: 16, background: '#F7F9FC', borderRadius: 8, border: { top: { width: 4, color: '#1E4FA8' } } }}>
+            <Text style={{ fontSize: 19, fontWeight: 'bold', color: '#1A2230' }}>角色资产锁定</Text>
+            <Text style={{ fontSize: 14, color: '#4A5568', lineHeight: 1.4 }}>为每位角色生成标准立绘（种子图），作为跨场景一致性的锚点</Text>
+            <Text style={{ fontSize: 13, color: '#1E4FA8', fontWeight: 'bold', marginTop: 'auto' }}>文生图 · 1024×1536</Text>
+        </Box>
+
+        <Box style={{ width: 218, flexDirection: 'column', gap: 9, padding: 16, background: '#F7F9FC', borderRadius: 8, border: { top: { width: 4, color: '#1E4FA8' } } }}>
+            <Text style={{ fontSize: 19, fontWeight: 'bold', color: '#1A2230' }}>分镜生成</Text>
+            <Text style={{ fontSize: 14, color: '#4A5568', lineHeight: 1.4 }}>按分镜脚本逐镜生成，每镜自动绑定对应角色种子图作 reference</Text>
+            <Text style={{ fontSize: 13, color: '#1E4FA8', fontWeight: 'bold', marginTop: 'auto' }}>reference 一致性约束</Text>
+        </Box>
+
+        <Box style={{ width: 218, flexDirection: 'column', gap: 9, padding: 16, background: '#F7F9FC', borderRadius: 8, border: { top: { width: 4, color: '#1E4FA8' } } }}>
+            <Text style={{ fontSize: 19, fontWeight: 'bold', color: '#1A2230' }}>时间轴预览</Text>
+            <Text style={{ fontSize: 14, color: '#4A5568', lineHeight: 1.4 }}>镜头排成时间轴；自然语言下指令改分镜（如「改近景」），可单镜配音</Text>
+            <Text style={{ fontSize: 13, color: '#1E4FA8', fontWeight: 'bold', marginTop: 'auto' }}>对话式编辑 + TTS</Text>
+        </Box>
+
+        <Box style={{ width: 218, flexDirection: 'column', gap: 9, padding: 16, background: '#0E3F8C', borderRadius: 8 }}>
+            <Text style={{ fontSize: 19, fontWeight: 'bold', color: '#FFFFFF' }}>成片导出</Text>
+            <Text style={{ fontSize: 14, color: '#BFD4F0', lineHeight: 1.4 }}>一键导出说明文档 / 分镜脚本 / 全量项目 / 角色图 / A3 海报</Text>
+            <Text style={{ fontSize: 13, color: '#E8B4AE', fontWeight: 'bold', marginTop: 'auto' }}>多格式交付</Text>
+        </Box>
+    </Box>
+
+    <Box style={{ position: 'absolute', top: 462, left: 40, width: 1200, flexDirection: 'row', gap: 18 }}>
+        <Box style={{ flex: 1, flexDirection: 'row', gap: 14, alignItems: 'flex-start', padding: 20, background: '#E8EFF8', borderRadius: 8 }}>
+            <FAIcon name='project-diagram' style={{ fill: '#1E4FA8', width: 32, height: 32 }} />
+            <Box style={{ flexDirection: 'column', gap: 5, flex: 1 }}>
+                <Text style={{ fontSize: 19, fontWeight: 'bold', color: '#0E3F8C' }}>单一事实源架构</Text>
+                <Text style={{ fontSize: 15, color: '#4A5568', lineHeight: 1.45 }}>策划阶段产出的<b>结构化项目模型</b>作为唯一数据源，驱动下游全部环节——避免「策划散文、下游不消费」的链路断裂。</Text>
+            </Box>
+        </Box>
+        <Box style={{ flex: 1, flexDirection: 'row', gap: 14, alignItems: 'flex-start', padding: 20, background: '#E8EFF8', borderRadius: 8 }}>
+            <FAIcon name='layer-group' style={{ fill: '#1E4FA8', width: 32, height: 32 }} />
+            <Box style={{ flexDirection: 'column', gap: 5, flex: 1 }}>
+                <Text style={{ fontSize: 19, fontWeight: 'bold', color: '#0E3F8C' }}>环节可独立操作</Text>
+                <Text style={{ fontSize: 15, color: '#4A5568', lineHeight: 1.45 }}>五个环节均可独立操作并即时看到结果，参考 Seko / 即梦的「创编一体」交互范式，而非单向的批量生成工具。</Text>
+            </Box>
+        </Box>
+    </Box>
+
+    <Box style={{ position: 'absolute', top: 690, left: 46, right: 46, flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
+        <Text style={{ fontSize: 14, color: '#8B97A8' }}>柯桥 · 水乡IP造物台</Text>
+        <Text style={{ fontSize: 14, color: '#1E4FA8', fontWeight: 'bold' }}>07 / 14</Text>
+    </Box>
+</Slide>

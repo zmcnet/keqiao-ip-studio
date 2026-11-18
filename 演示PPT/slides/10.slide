@@ -1,0 +1,32 @@
+<Slide style={{ width: 1280, height: 720, position: 'relative', background: '#0B1220', fontFamily: '微软雅黑', overflow: 'hidden' }}>
+    <Box style={{ position: 'absolute', top: 0, left: 0, width: 1280, height: 720, background: 'linear-gradient(135deg, #0B1220 0%, #122340 55%, #0E1A30 100%)' }} />
+    <Box style={{ position: 'absolute', top: -140, right: -140, width: 560, height: 560, borderRadius: 280, background: '#152A4A' }} />
+    <Box style={{ position: 'absolute', bottom: -180, left: -140, width: 520, height: 520, borderRadius: 260, background: '#12203A' }} />
+
+    <Box style={{ position: 'relative', zIndex: 2, width: 1280, height: 720, flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: 22 }}>
+        <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 14 }}>
+            <Box style={{ width: 40, height: 4, background: '#3B82F6' }} />
+            <Text style={{ fontSize: 15, color: '#7EA6D8', letterSpacing: 5 }}>柯桥 · 水乡IP造物台</Text>
+            <Box style={{ width: 40, height: 4, background: '#3B82F6' }} />
+        </Box>
+        <Text style={{ fontSize: 58, fontWeight: 'bold', color: '#F8FAFC', letterSpacing: 2, textAlign: 'center' }}>让柯桥之美 · 被世界看见</Text>
+        <Box style={{ width: 140, height: 5, background: 'linear-gradient(90deg, #3B82F6 0%, #22D3EE 100%)' }} />
+        <Text style={{ fontSize: 20, color: '#B9CCE4', textAlign: 'center', lineHeight: 1.7 }}>一件原创文旅 IP · 一个可运行的系统 · 一条完整的 AIGC 创作链路</Text>
+        <Box style={{ flexDirection: 'row', gap: 12, marginTop: 10 }}>
+            <Box style={{ paddingLeft: 20, paddingRight: 20, paddingTop: 9, paddingBottom: 9, borderRadius: 18, background: '#152238' }}>
+                <Text style={{ fontSize: 15, color: '#8FB3E0' }}>六位原创 IP</Text>
+            </Box>
+            <Box style={{ paddingLeft: 20, paddingRight: 20, paddingTop: 9, paddingBottom: 9, borderRadius: 18, background: '#152238' }}>
+                <Text style={{ fontSize: 15, color: '#8FB3E0' }}>全链路创编一体</Text>
+            </Box>
+            <Box style={{ paddingLeft: 20, paddingRight: 20, paddingTop: 9, paddingBottom: 9, borderRadius: 18, background: '#152238' }}>
+                <Text style={{ fontSize: 15, color: '#8FB3E0' }}>AIGC 占比 80%</Text>
+            </Box>
+        </Box>
+    </Box>
+
+    <Box style={{ position: 'absolute', bottom: 40, left: 0, width: 1280, flexDirection: 'column', alignItems: 'center', gap: 4 }}>
+        <Text style={{ fontSize: 14, color: '#5E7EA8' }}>数字创意与 AIGC 应用赛道 · 主题一 · 选项 B 原创柯桥专属旅游 IP 形象</Text>
+        <Text style={{ fontSize: 13, color: '#3B82F6', fontWeight: 'bold' }}>10 / 10</Text>
+    </Box>
+</Slide>

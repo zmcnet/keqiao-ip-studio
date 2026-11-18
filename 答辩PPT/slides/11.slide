@@ -1,0 +1,73 @@
+<Slide style={{ width: 1280, height: 720, position: 'relative', background: '#F7F9FC', fontFamily: '微软雅黑' }}>
+    <Box style={{ position: 'absolute', top: 0, left: 0, width: 1280, height: 104, background: '#1E4FA8' }} />
+    <Box style={{ position: 'absolute', top: 0, right: 0, width: 420, height: 104, background: 'linear-gradient(90deg, rgba(14,63,140,0) 0%, rgba(14,63,140,0.85) 100%)' }} />
+    <Box style={{ position: 'absolute', top: 22, left: 46, flexDirection: 'column', gap: 6 }}>
+        <Text style={{ fontSize: 32, fontWeight: 'bold', color: '#FFFFFF' }}>成果全家福 · 六镜分镜成片</Text>
+        <Text style={{ fontSize: 15, color: '#BFD4F0' }}>同一 IP 家族贯穿柯桥六大真实点位 · 完整覆盖自然景观与文旅业态</Text>
+    </Box>
+    <Box style={{ position: 'absolute', top: 30, right: 46, flexDirection: 'row', alignItems: 'center', gap: 10 }}>
+        <FAIcon name='images' style={{ fill: '#8FB0E0', width: 22, height: 22 }} />
+        <Text style={{ fontSize: 16, color: '#DCE8F8' }}>AI 生成 · 1024×1536 ×6</Text>
+    </Box>
+
+    <Box style={{ position: 'absolute', top: 124, left: 40, width: 1200, flexDirection: 'row', gap: 18 }}>
+        <Box style={{ width: 185, flexDirection: 'column', borderRadius: 9, overflow: 'hidden', background: '#FFFFFF', boxShadow: '0 4px 16px rgba(30,79,168,0.12)' }}>
+            <Image src='assets/shot_1.jpg' style={{ width: 185, height: 246, objectFit: 'cover' }} />
+            <Box style={{ flexDirection: 'column', gap: 3, padding: 11 }}>
+                <Text style={{ fontSize: 17, fontWeight: 'bold', color: '#1A2230' }}>01 鉴湖晨雾</Text>
+                <Text style={{ fontSize: 12, color: '#1E4FA8' }}>鉴湖 · 古纤道</Text>
+                <Text style={{ fontSize: 11, color: '#8B97A8' }}>大远景 · 缓慢推近</Text>
+            </Box>
+        </Box>
+        <Box style={{ width: 185, flexDirection: 'column', borderRadius: 9, overflow: 'hidden', background: '#FFFFFF', boxShadow: '0 4px 16px rgba(30,79,168,0.12)' }}>
+            <Image src='assets/shot_2.jpg' style={{ width: 185, height: 246, objectFit: 'cover' }} />
+            <Box style={{ flexDirection: 'column', gap: 3, padding: 11 }}>
+                <Text style={{ fontSize: 17, fontWeight: 'bold', color: '#1A2230' }}>02 安昌酱香</Text>
+                <Text style={{ fontSize: 12, color: '#1E4FA8' }}>安昌古镇 · 仁昌酱园</Text>
+                <Text style={{ fontSize: 11, color: '#8B97A8' }}>中景 · 跟拍</Text>
+            </Box>
+        </Box>
+        <Box style={{ width: 185, flexDirection: 'column', borderRadius: 9, overflow: 'hidden', background: '#FFFFFF', boxShadow: '0 4px 16px rgba(30,79,168,0.12)' }}>
+            <Image src='assets/shot_3.jpg' style={{ width: 185, height: 246, objectFit: 'cover' }} />
+            <Box style={{ flexDirection: 'column', gap: 3, padding: 11 }}>
+                <Text style={{ fontSize: 17, fontWeight: 'bold', color: '#1A2230' }}>03 柯岩揽胜</Text>
+                <Text style={{ fontSize: 12, color: '#1E4FA8' }}>柯岩 · 采石遗迹</Text>
+                <Text style={{ fontSize: 11, color: '#8B97A8' }}>全景 · 上升</Text>
+            </Box>
+        </Box>
+        <Box style={{ width: 185, flexDirection: 'column', borderRadius: 9, overflow: 'hidden', background: '#FFFFFF', boxShadow: '0 4px 16px rgba(30,79,168,0.12)' }}>
+            <Image src='assets/shot_4.jpg' style={{ width: 185, height: 246, objectFit: 'cover' }} />
+            <Box style={{ flexDirection: 'column', gap: 3, padding: 11 }}>
+                <Text style={{ fontSize: 17, fontWeight: 'bold', color: '#1A2230' }}>04 三桥夜泊</Text>
+                <Text style={{ fontSize: 12, color: '#1E4FA8' }}>柯桥古镇 · 三桥四水</Text>
+                <Text style={{ fontSize: 11, color: '#8B97A8' }}>近景 · 缓摇</Text>
+            </Box>
+        </Box>
+        <Box style={{ width: 185, flexDirection: 'column', borderRadius: 9, overflow: 'hidden', background: '#FFFFFF', boxShadow: '0 4px 16px rgba(30,79,168,0.12)' }}>
+            <Image src='assets/shot_5.jpg' style={{ width: 185, height: 246, objectFit: 'cover' }} />
+            <Box style={{ flexDirection: 'column', gap: 3, padding: 11 }}>
+                <Text style={{ fontSize: 17, fontWeight: 'bold', color: '#1A2230' }}>05 扇面丹青</Text>
+                <Text style={{ fontSize: 12, color: '#1E4FA8' }}>王星记扇馆 · 非遗馆</Text>
+                <Text style={{ fontSize: 11, color: '#8B97A8' }}>特写 · 推近</Text>
+            </Box>
+        </Box>
+        <Box style={{ width: 185, flexDirection: 'column', borderRadius: 9, overflow: 'hidden', background: '#FFFFFF', boxShadow: '0 4px 16px rgba(30,79,168,0.12)' }}>
+            <Image src='assets/shot_6.jpg' style={{ width: 185, height: 246, objectFit: 'cover' }} />
+            <Box style={{ flexDirection: 'column', gap: 3, padding: 11 }}>
+                <Text style={{ fontSize: 17, fontWeight: 'bold', color: '#1A2230' }}>06 社戏台上</Text>
+                <Text style={{ fontSize: 12, color: '#1E4FA8' }}>鲁镇 · 社戏台</Text>
+                <Text style={{ fontSize: 11, color: '#8B97A8' }}>中景 · 环绕</Text>
+            </Box>
+        </Box>
+    </Box>
+
+    <Box style={{ position: 'absolute', top: 604, left: 40, width: 1200, height: 56, background: '#E8EFF8', borderRadius: 8, paddingLeft: 22, paddingRight: 22, flexDirection: 'row', alignItems: 'center', gap: 16 }}>
+        <FAIcon name='check-circle' style={{ fill: '#1E4FA8', width: 26, height: 26 }} />
+        <Text style={{ fontSize: 16, color: '#1A2230' }}>六镜覆盖<b>自然景观</b>（鉴湖 / 柯岩）、<b>人文点位</b>（安昌 / 柯桥古镇）、<b>特色业态</b>（轻纺城 / 非遗馆 / 社戏），并配完整分镜脚本（景别 / 画面 / 台词 / 情绪）。</Text>
+    </Box>
+
+    <Box style={{ position: 'absolute', top: 690, left: 46, right: 46, flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
+        <Text style={{ fontSize: 14, color: '#8B97A8' }}>柯桥 · 水乡IP造物台</Text>
+        <Text style={{ fontSize: 14, color: '#1E4FA8', fontWeight: 'bold' }}>11 / 14</Text>
+    </Box>
+</Slide>

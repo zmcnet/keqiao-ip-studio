@@ -1,0 +1,70 @@
+<Slide style={{ width: 1280, height: 720, position: 'relative', background: '#0B1220', fontFamily: '微软雅黑', overflow: 'hidden' }}>
+    <Box style={{ position: 'absolute', top: 30, left: 64, flexDirection: 'row', alignItems: 'center', gap: 12 }}>
+        <Box style={{ paddingLeft: 12, paddingRight: 12, paddingTop: 5, paddingBottom: 5, borderRadius: 12, background: '#1E3A5F' }}>
+            <Text style={{ fontSize: 13, fontWeight: 'bold', color: '#7EB3F0' }}>成果</Text>
+        </Box>
+        <Text style={{ fontSize: 30, fontWeight: 'bold', color: '#F1F5F9' }}>成果全家福 · 六镜成片</Text>
+        <Text style={{ fontSize: 15, color: '#7EA6D8' }}>六位 IP × 六个柯桥地标</Text>
+    </Box>
+    <Box style={{ position: 'absolute', top: 30, right: 64, flexDirection: 'row', alignItems: 'center', gap: 10 }}>
+        <FAIcon name='images' style={{ fill: '#22D3EE', width: 18, height: 18 }} />
+        <Text style={{ fontSize: 14, color: '#67D8EA' }}>AI 生成 · 1024×1536</Text>
+    </Box>
+
+    <Box style={{ position: 'absolute', top: 106, left: 64, width: 1152, flexDirection: 'row', gap: 14 }}>
+        <Box style={{ flex: 1, flexDirection: 'column', borderRadius: 9, overflow: 'hidden', background: '#121C2E', border: { left: { width: 1, color: '#24344F' }, right: { width: 1, color: '#24344F' }, top: { width: 1, color: '#24344F' }, bottom: { width: 1, color: '#24344F' } } }}>
+            <Image src='assets/shot_1.jpg' style={{ width: 180, height: 268, objectFit: 'cover' }} />
+            <Box style={{ flexDirection: 'column', padding: 10 }}>
+                <Text style={{ fontSize: 15, fontWeight: 'bold', color: '#E2ECF8' }}>01 鉴湖晨雾</Text>
+                <Text style={{ fontSize: 12, color: '#7EA6D8', marginTop: 2 }}>鉴湖 · 古纤道</Text>
+            </Box>
+        </Box>
+        <Box style={{ flex: 1, flexDirection: 'column', borderRadius: 9, overflow: 'hidden', background: '#121C2E', border: { left: { width: 1, color: '#24344F' }, right: { width: 1, color: '#24344F' }, top: { width: 1, color: '#24344F' }, bottom: { width: 1, color: '#24344F' } } }}>
+            <Image src='assets/shot_2.jpg' style={{ width: 180, height: 268, objectFit: 'cover' }} />
+            <Box style={{ flexDirection: 'column', padding: 10 }}>
+                <Text style={{ fontSize: 15, fontWeight: 'bold', color: '#E2ECF8' }}>02 安昌酱香</Text>
+                <Text style={{ fontSize: 12, color: '#7EA6D8', marginTop: 2 }}>安昌古镇 · 仁昌酱园</Text>
+            </Box>
+        </Box>
+        <Box style={{ flex: 1, flexDirection: 'column', borderRadius: 9, overflow: 'hidden', background: '#121C2E', border: { left: { width: 1, color: '#24344F' }, right: { width: 1, color: '#24344F' }, top: { width: 1, color: '#24344F' }, bottom: { width: 1, color: '#24344F' } } }}>
+            <Image src='assets/shot_3.jpg' style={{ width: 180, height: 268, objectFit: 'cover' }} />
+            <Box style={{ flexDirection: 'column', padding: 10 }}>
+                <Text style={{ fontSize: 15, fontWeight: 'bold', color: '#E2ECF8' }}>03 柯岩揽胜</Text>
+                <Text style={{ fontSize: 12, color: '#7EA6D8', marginTop: 2 }}>柯岩 · 采石遗迹</Text>
+            </Box>
+        </Box>
+        <Box style={{ flex: 1, flexDirection: 'column', borderRadius: 9, overflow: 'hidden', background: '#121C2E', border: { left: { width: 1, color: '#24344F' }, right: { width: 1, color: '#24344F' }, top: { width: 1, color: '#24344F' }, bottom: { width: 1, color: '#24344F' } } }}>
+            <Image src='assets/shot_4.jpg' style={{ width: 180, height: 268, objectFit: 'cover' }} />
+            <Box style={{ flexDirection: 'column', padding: 10 }}>
+                <Text style={{ fontSize: 15, fontWeight: 'bold', color: '#E2ECF8' }}>04 三桥夜泊</Text>
+                <Text style={{ fontSize: 12, color: '#7EA6D8', marginTop: 2 }}>柯桥古镇 · 三桥四水</Text>
+            </Box>
+        </Box>
+        <Box style={{ flex: 1, flexDirection: 'column', borderRadius: 9, overflow: 'hidden', background: '#121C2E', border: { left: { width: 1, color: '#24344F' }, right: { width: 1, color: '#24344F' }, top: { width: 1, color: '#24344F' }, bottom: { width: 1, color: '#24344F' } } }}>
+            <Image src='assets/shot_5.jpg' style={{ width: 180, height: 268, objectFit: 'cover' }} />
+            <Box style={{ flexDirection: 'column', padding: 10 }}>
+                <Text style={{ fontSize: 15, fontWeight: 'bold', color: '#E2ECF8' }}>05 扇面丹青</Text>
+                <Text style={{ fontSize: 12, color: '#7EA6D8', marginTop: 2 }}>王星记扇馆 · 非遗馆</Text>
+            </Box>
+        </Box>
+        <Box style={{ flex: 1, flexDirection: 'column', borderRadius: 9, overflow: 'hidden', background: '#121C2E', border: { left: { width: 1, color: '#24344F' }, right: { width: 1, color: '#24344F' }, top: { width: 1, color: '#24344F' }, bottom: { width: 1, color: '#24344F' } } }}>
+            <Image src='assets/shot_6.jpg' style={{ width: 180, height: 268, objectFit: 'cover' }} />
+            <Box style={{ flexDirection: 'column', padding: 10 }}>
+                <Text style={{ fontSize: 15, fontWeight: 'bold', color: '#E2ECF8' }}>06 社戏台上</Text>
+                <Text style={{ fontSize: 12, color: '#7EA6D8', marginTop: 2 }}>鲁镇 · 社戏台</Text>
+            </Box>
+        </Box>
+    </Box>
+
+    <Box style={{ position: 'absolute', top: 512, left: 64, width: 1152, flexDirection: 'row', alignItems: 'center', gap: 16, paddingTop: 16, paddingBottom: 16, paddingLeft: 22, paddingRight: 22, background: '#0E1A2C', borderRadius: 10, border: { left: { width: 3, color: '#22D3EE' } } }}>
+        <FAIcon name='circle-check' style={{ fill: '#22D3EE', width: 30, height: 30 }} />
+        <Text style={{ fontSize: 17, color: '#C4D4E8', lineHeight: 1.5 }}>覆盖<b>自然景观</b>（鉴湖 / 柯岩）、<b>人文点位</b>（安昌 / 柯桥古镇）、<b>特色业态</b>（非遗馆 / 社戏），并配完整分镜脚本与配音。</Text>
+    </Box>
+
+    <Box style={{ position: 'absolute', bottom: 26, left: 64, right: 64, flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
+        <Box style={{ width: 1080, height: 4, background: '#1B2941', borderRadius: 2 }}>
+            <Box style={{ width: 972, height: 4, background: '#3B82F6', borderRadius: 2 }} />
+        </Box>
+        <Text style={{ fontSize: 14, color: '#3B82F6', fontWeight: 'bold' }}>09 / 10</Text>
+    </Box>
+</Slide>

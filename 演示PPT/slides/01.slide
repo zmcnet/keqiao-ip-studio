@@ -1,0 +1,53 @@
+<Slide style={{ width: 1280, height: 720, position: 'relative', background: '#0B1220', fontFamily: '微软雅黑', overflow: 'hidden' }}>
+    <Box style={{ position: 'absolute', top: -180, right: -140, width: 600, height: 600, borderRadius: 300, background: '#12203A' }} />
+
+    <Box style={{ position: 'absolute', top: 74, left: 64, flexDirection: 'row', alignItems: 'center', gap: 12 }}>
+        <Box style={{ width: 44, height: 5, background: '#F59E0B' }} />
+        <Text style={{ fontSize: 15, color: '#7EA6D8', letterSpacing: 4 }}>系统实况演示 · LIVE DEMO</Text>
+    </Box>
+
+    <Box style={{ position: 'absolute', top: 136, left: 64, width: 620, flexDirection: 'column', gap: 14 }}>
+        <Text style={{ fontSize: 58, fontWeight: 'bold', color: '#F8FAFC', lineHeight: 1.16 }}>一句创意，如何变成一部片？</Text>
+        <Text style={{ fontSize: 20, color: '#B9CCE4', lineHeight: 1.6 }}>下面两分半，逐步展示系统的真实操作过程</Text>
+    </Box>
+
+    <Box style={{ position: 'absolute', top: 392, left: 64, width: 340, flexDirection: 'column', gap: 10 }}>
+        <Text style={{ fontSize: 13, color: '#5B7BA6', letterSpacing: 2 }}>① 我输入的</Text>
+        <Box style={{ padding: 16, background: '#121C2E', borderRadius: 10, border: { left: { width: 1, color: '#3B82F6' }, right: { width: 1, color: '#3B82F6' }, top: { width: 1, color: '#3B82F6' }, bottom: { width: 1, color: '#3B82F6' } } }}>
+            <Text style={{ fontSize: 16, color: '#8FA6C2', lineHeight: 1.6 }}>用柯桥三缸文化，做一套水乡文旅 IP 形象</Text>
+        </Box>
+    </Box>
+
+    <Box style={{ position: 'absolute', top: 392, left: 420, width: 68, height: 104, justifyContent: 'center', alignItems: 'center' }}>
+        <FAIcon name='arrow-right' style={{ fill: '#22D3EE', width: 36, height: 36 }} />
+    </Box>
+
+    <Box style={{ position: 'absolute', top: 392, left: 500, width: 716, flexDirection: 'column', gap: 10 }}>
+        <Text style={{ fontSize: 13, color: '#5B7BA6', letterSpacing: 2 }}>⑤ 系统跑出的成片</Text>
+        <Box style={{ flexDirection: 'row', gap: 10 }}>
+            <Image src='assets/shot_1.jpg' style={{ width: 232, height: 104, objectFit: 'cover', borderRadius: 8 }} />
+            <Image src='assets/shot_4.jpg' style={{ width: 232, height: 104, objectFit: 'cover', borderRadius: 8 }} />
+            <Image src='assets/shot_6.jpg' style={{ width: 232, height: 104, objectFit: 'cover', borderRadius: 8 }} />
+        </Box>
+    </Box>
+
+    <Box style={{ position: 'absolute', top: 546, left: 64, width: 1152, flexDirection: 'row', gap: 10 }}>
+        <Box style={{ flex: 1, paddingTop: 12, paddingBottom: 12, background: '#101A2B', borderRadius: 8, justifyContent: 'center', alignItems: 'center' }}>
+            <Text style={{ fontSize: 14, color: '#7EA6D8' }}>真实模型已接入</Text>
+        </Box>
+        <Box style={{ flex: 1, paddingTop: 12, paddingBottom: 12, background: '#101A2B', borderRadius: 8, justifyContent: 'center', alignItems: 'center' }}>
+            <Text style={{ fontSize: 14, color: '#7EA6D8' }}>全链路可复现</Text>
+        </Box>
+        <Box style={{ flex: 1, paddingTop: 12, paddingBottom: 12, background: '#101A2B', borderRadius: 8, justifyContent: 'center', alignItems: 'center' }}>
+            <Text style={{ fontSize: 14, color: '#F0B95A' }}>AIGC 占比 80%</Text>
+        </Box>
+        <Box style={{ flex: 1, paddingTop: 12, paddingBottom: 12, background: '#101A2B', borderRadius: 8, justifyContent: 'center', alignItems: 'center' }}>
+            <Text style={{ fontSize: 14, color: '#7EA6D8' }}>无背景音效 · 纯配音</Text>
+        </Box>
+    </Box>
+
+    <Box style={{ position: 'absolute', bottom: 26, right: 64, flexDirection: 'row', alignItems: 'center', gap: 12 }}>
+        <Text style={{ fontSize: 14, color: '#4A6188' }}>柯桥 · 水乡IP造物台</Text>
+        <Text style={{ fontSize: 14, color: '#3B82F6', fontWeight: 'bold' }}>01 / 10</Text>
+    </Box>
+</Slide>

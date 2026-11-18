@@ -1,0 +1,44 @@
+<Slide style={{ width: 1280, height: 720, position: 'relative', background: '#FFFFFF', fontFamily: '微软雅黑' }}>
+    <Box style={{ position: 'absolute', top: 0, left: 0, width: 1280, height: 96, background: '#1E4FA8' }} />
+    <Box style={{ position: 'absolute', top: 96, left: 0, width: 1280, height: 4, background: '#C0392B' }} />
+
+    <Box style={{ position: 'absolute', top: 116, left: 0, width: 336, height: 604, background: '#F7F9FC', border: { right: { width: 1, color: '#E5E7EB' } }, paddingTop: 104, paddingLeft: 46, paddingRight: 40, flexDirection: 'column', gap: 20 }}>
+        <Text style={{ fontSize: 34, fontWeight: 'bold', color: '#1A2230', letterSpacing: 4 }}>目录</Text>
+        <Box style={{ width: 54, height: 5, background: '#C0392B' }} />
+        <Text style={{ fontSize: 20, color: '#1E4FA8', letterSpacing: 3, marginTop: 6 }}>CONTENTS</Text>
+        <Box style={{ marginTop: 22, paddingTop: 18, border: { top: { width: 1, color: '#D6DCE5' } } }}>
+            <Text style={{ fontSize: 16, color: '#8B97A8', lineHeight: 1.75 }}>三章递进：<br />从赛题对标，到技术实现，<br />再到成果与价值。</Text>
+        </Box>
+    </Box>
+
+    <Box style={{ position: 'absolute', top: 132, left: 376, width: 864, height: 556, flexDirection: 'column', justifyContent: 'space-between' }}>
+        <Box style={{ flexDirection: 'row', gap: 26, alignItems: 'flex-start', padding: 22, background: '#F7F9FC', borderRadius: 10, border: { left: { width: 6, color: '#1E4FA8' } } }}>
+            <Text style={{ fontSize: 46, fontWeight: 'bold', color: '#1E4FA8', lineHeight: 1.0, width: 96 }}>01</Text>
+            <Box style={{ flexDirection: 'column', gap: 8, flex: 1 }}>
+                <Text style={{ fontSize: 25, fontWeight: 'bold', color: '#1A2230' }}>赛题匹配与创意立意</Text>
+                <Text style={{ fontSize: 17, color: '#4A5568', lineHeight: 1.55 }}>选题精准对标六项评分标准；原创「三缸奇缘 · 笛里柯桥」世界观与「三缸集章」落地玩法。</Text>
+            </Box>
+        </Box>
+
+        <Box style={{ flexDirection: 'row', gap: 26, alignItems: 'flex-start', padding: 22, background: '#F7F9FC', borderRadius: 10, border: { left: { width: 6, color: '#3D7BD9' } } }}>
+            <Text style={{ fontSize: 46, fontWeight: 'bold', color: '#3D7BD9', lineHeight: 1.0, width: 96 }}>02</Text>
+            <Box style={{ flexDirection: 'column', gap: 8, flex: 1 }}>
+                <Text style={{ fontSize: 25, fontWeight: 'bold', color: '#1A2230' }}>技术方案：创编一体全链路</Text>
+                <Text style={{ fontSize: 17, color: '#4A5568', lineHeight: 1.55 }}>五环流水线架构；核心技术创新「角色一致性锚定」；工作台真实运行实证。</Text>
+            </Box>
+        </Box>
+
+        <Box style={{ flexDirection: 'row', gap: 26, alignItems: 'flex-start', padding: 22, background: '#F7F9FC', borderRadius: 10, border: { left: { width: 6, color: '#0E3F8C' } } }}>
+            <Text style={{ fontSize: 46, fontWeight: 'bold', color: '#0E3F8C', lineHeight: 1.0, width: 96 }}>03</Text>
+            <Box style={{ flexDirection: 'column', gap: 8, flex: 1 }}>
+                <Text style={{ fontSize: 25, fontWeight: 'bold', color: '#1A2230' }}>成果价值与合规传播</Text>
+                <Text style={{ fontSize: 17, color: '#4A5568', lineHeight: 1.55 }}>多模态成果全家福；AIGC 占比 80% 依据；第三方资源合规台账与四大落地场景。</Text>
+            </Box>
+        </Box>
+    </Box>
+
+    <Box style={{ position: 'absolute', top: 690, left: 46, right: 46, flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
+        <Text style={{ fontSize: 14, color: '#8B97A8' }}>柯桥 · 水乡IP造物台</Text>
+        <Text style={{ fontSize: 14, color: '#1E4FA8', fontWeight: 'bold' }}>02 / 14</Text>
+    </Box>
+</Slide>

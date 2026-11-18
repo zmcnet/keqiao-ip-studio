@@ -1,0 +1,63 @@
+<Slide style={{ width: 1280, height: 720, position: 'relative', background: '#FFFFFF', fontFamily: '微软雅黑' }}>
+    <Box style={{ position: 'absolute', top: 30, left: 46, width: 1188, flexDirection: 'column', gap: 6 }}>
+        <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 14 }}>
+            <Box style={{ width: 6, height: 32, background: '#C0392B' }} />
+            <Text style={{ fontSize: 34, fontWeight: 'bold', color: '#1A2230' }}>核心技术 · 角色一致性锚定</Text>
+            <Box style={{ paddingLeft: 12, paddingRight: 12, paddingTop: 4, paddingBottom: 4, background: '#C0392B', borderRadius: 12 }}>
+                <Text style={{ fontSize: 14, fontWeight: 'bold', color: '#FFFFFF' }}>技术亮点</Text>
+            </Box>
+        </Box>
+        <Text style={{ fontSize: 17, color: '#8B97A8', marginLeft: 20 }}>破解 AIGC 影视化的最大痛点：同一角色跨场景「换脸」</Text>
+    </Box>
+
+    <Box style={{ position: 'absolute', top: 118, left: 40, width: 620, flexDirection: 'column', gap: 12 }}>
+        <Box style={{ flexDirection: 'row', gap: 14, alignItems: 'flex-start', padding: 16, background: '#FDF0EE', borderRadius: 8, border: { left: { width: 5, color: '#C0392B' } } }}>
+            <FAIcon name='exclamation-triangle' style={{ fill: '#C0392B', width: 30, height: 30 }} />
+            <Box style={{ flexDirection: 'column', gap: 4, flex: 1 }}>
+                <Text style={{ fontSize: 19, fontWeight: 'bold', color: '#C0392B' }}>行业痛点：跨镜形象漂移</Text>
+                <Text style={{ fontSize: 15, color: '#4A5568', lineHeight: 1.45 }}>逐镜独立生成时，模型无法记忆角色特征——同一角色在第 1 镜与第 4 镜之间会「换脸」，IP 的视觉识别度随之瓦解。</Text>
+            </Box>
+        </Box>
+
+        <Box style={{ flexDirection: 'row', gap: 14, alignItems: 'flex-start', padding: 16, background: '#E8EFF8', borderRadius: 8, border: { left: { width: 5, color: '#1E4FA8' } } }}>
+            <FAIcon name='anchor' style={{ fill: '#1E4FA8', width: 30, height: 30 }} />
+            <Box style={{ flexDirection: 'column', gap: 4, flex: 1 }}>
+                <Text style={{ fontSize: 19, fontWeight: 'bold', color: '#0E3F8C' }}>解决机制：种子图锚定</Text>
+                <Text style={{ fontSize: 15, color: '#4A5568', lineHeight: 1.45 }}>先在「角色资产锁定」环节产出每位角色的<b>标准立绘（种子图）</b>；后续每个分镜生成时，自动将该种子图作为 <b>reference 参考图</b>传入模型。</Text>
+            </Box>
+        </Box>
+
+        <Box style={{ flexDirection: 'row', gap: 14, alignItems: 'flex-start', padding: 16, background: '#E8EFF8', borderRadius: 8, border: { left: { width: 5, color: '#1E4FA8' } } }}>
+            <FAIcon name='check-circle' style={{ fill: '#1E4FA8', width: 30, height: 30 }} />
+            <Box style={{ flexDirection: 'column', gap: 4, flex: 1 }}>
+                <Text style={{ fontSize: 19, fontWeight: 'bold', color: '#0E3F8C' }}>实测效果：形象不崩</Text>
+                <Text style={{ fontSize: 15, color: '#4A5568', lineHeight: 1.45 }}>已实测「阿鉴」由立绘迁移至鉴湖场景，形象特征保持一致。同一角色可稳定驻留多个柯桥地标，形成可复用的角色资产。</Text>
+            </Box>
+        </Box>
+
+        <Box style={{ flexDirection: 'row', gap: 10, alignItems: 'center', paddingBottom: 12, paddingTop: 12, paddingLeft: 16, paddingRight: 16, background: '#0E3F8C', borderRadius: 8 }}>
+            <Text style={{ fontSize: 14, color: '#BFD4F0' }}>技术链路</Text>
+            <FAIcon name='arrow-right' style={{ fill: '#8FB0E0', width: 16, height: 16 }} />
+            <Text style={{ fontSize: 14, color: '#FFFFFF', fontWeight: 'bold' }}>首镜生成 → 提取种子图 → 写入项目模型 → 每镜注入 reference</Text>
+        </Box>
+    </Box>
+
+    <Box style={{ position: 'absolute', top: 118, left: 688, width: 552, flexDirection: 'column', borderRadius: 10, overflow: 'hidden', boxShadow: '0 6px 22px rgba(30,79,168,0.16)' }}>
+        <Image src='assets/compare.png' style={{ width: 552, height: 402, objectFit: 'cover' }} />
+        <Box style={{ flexDirection: 'row', justifyContent: 'space-between', paddingTop: 10, paddingBottom: 10, paddingLeft: 18, paddingRight: 18, background: '#1E4FA8' }}>
+            <Text style={{ fontSize: 15, fontWeight: 'bold', color: '#FFFFFF' }}>左 · 种子图立绘</Text>
+            <Text style={{ fontSize: 14, color: '#E8B4AE' }}>reference 注入 →</Text>
+            <Text style={{ fontSize: 15, fontWeight: 'bold', color: '#FFFFFF' }}>右 · 鉴湖场景分镜</Text>
+        </Box>
+    </Box>
+
+    <Box style={{ position: 'absolute', top: 560, left: 688, width: 552, flexDirection: 'row', gap: 12, alignItems: 'center', paddingTop: 14, paddingBottom: 14, paddingLeft: 20, paddingRight: 20, background: '#F7F9FC', borderRadius: 8, border: { left: { width: 4, color: '#1E4FA8' } } }}>
+        <FAIcon name='lightbulb' style={{ fill: '#1E4FA8', width: 28, height: 28 }} />
+        <Text style={{ fontSize: 15, color: '#4A5568', lineHeight: 1.45 }}>同一角色形象在立绘与场景之间保持高度一致 —— <b>IP 资产在整条创作链路中不「换脸」</b>。</Text>
+    </Box>
+
+    <Box style={{ position: 'absolute', top: 690, left: 46, right: 46, flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
+        <Text style={{ fontSize: 14, color: '#8B97A8' }}>柯桥 · 水乡IP造物台</Text>
+        <Text style={{ fontSize: 14, color: '#1E4FA8', fontWeight: 'bold' }}>08 / 14</Text>
+    </Box>
+</Slide>

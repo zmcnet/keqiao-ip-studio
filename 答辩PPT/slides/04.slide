@@ -1,0 +1,48 @@
+<Slide style={{ width: 1280, height: 720, position: 'relative', background: '#FFFFFF', fontFamily: '微软雅黑' }}>
+    <Box style={{ position: 'absolute', top: 30, left: 46, width: 1188, flexDirection: 'column', gap: 6 }}>
+        <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 14 }}>
+            <Box style={{ width: 6, height: 32, background: '#C0392B' }} />
+            <Text style={{ fontSize: 34, fontWeight: 'bold', color: '#1A2230' }}>创意内核：三缸奇缘 · 笛里柯桥</Text>
+        </Box>
+        <Text style={{ fontSize: 17, color: '#8B97A8', marginLeft: 20 }}>原创世界观 · 非遗融合 · 可落地玩法</Text>
+    </Box>
+
+    <Box style={{ position: 'absolute', top: 122, left: 40, width: 690, height: 420, borderRadius: 10, overflow: 'hidden', boxShadow: '0 6px 24px rgba(30,79,168,0.14)' }}>
+        <Image src='assets/shot_2.jpg' style={{ width: 690, height: 420, objectFit: 'cover' }} />
+        <Box style={{ position: 'absolute', bottom: 0, left: 0, width: 690, height: 96, background: 'linear-gradient(0deg, rgba(14,63,140,0.90) 0%, rgba(14,63,140,0) 100%)' }} />
+        <Box style={{ position: 'absolute', bottom: 18, left: 24, flexDirection: 'column', gap: 4 }}>
+            <Text style={{ fontSize: 19, fontWeight: 'bold', color: '#FFFFFF' }}>安昌酱香 · 分镜 02</Text>
+            <Text style={{ fontSize: 14, color: '#BFD4F0' }}>仁昌酱园母子酱油（省级非遗）· 作品真实 AI 生成产出</Text>
+        </Box>
+    </Box>
+
+    <Box style={{ position: 'absolute', top: 122, left: 748, width: 492, height: 420, padding: 22, background: '#F7F9FC', borderRadius: 10, border: { left: { width: 5, color: '#1E4FA8' } }, flexDirection: 'column', gap: 14 }}>
+        <Box style={{ flexDirection: 'column', gap: 6 }}>
+            <Text style={{ fontSize: 20, fontWeight: 'bold', color: '#1E4FA8' }}>世界观母题</Text>
+            <Text style={{ fontSize: 15, color: '#4A5568', lineHeight: 1.5 }}>东晋柯亭，蔡邕取柯亭竹制笛；笛声引动鉴湖千年水气，凝作六位水乡小匠，守着柯桥的山水、古镇与人情。</Text>
+        </Box>
+        <Box style={{ flexDirection: 'column', gap: 6 }}>
+            <Text style={{ fontSize: 20, fontWeight: 'bold', color: '#1E4FA8' }}>核心设定 · 三缸灵脉</Text>
+            <Text style={{ fontSize: 15, color: '#4A5568', lineHeight: 1.5 }}>柯桥的元气藏在三口古缸：<span style={{ color: '#C8892B', fontWeight: 'bold' }}>酒缸（醇）</span>·<span style={{ color: '#8C4A2F', fontWeight: 'bold' }}>酱缸（鲜）</span>·<span style={{ color: '#2F5D8C', fontWeight: 'bold' }}>染缸（彩）</span>，由先民匠心所化，维系水乡生活底色。</Text>
+        </Box>
+        <Box style={{ flexDirection: 'column', gap: 6 }}>
+            <Text style={{ fontSize: 20, fontWeight: 'bold', color: '#1E4FA8' }}>精神内核</Text>
+            <Text style={{ fontSize: 15, color: '#4A5568', lineHeight: 1.5 }}>越地匠心的「守」与「传」——一劈一磨的耐心、雨淋不透的坚守、千年不息的传承。</Text>
+        </Box>
+    </Box>
+
+    <Box style={{ position: 'absolute', top: 560, left: 40, width: 1200, height: 90, background: '#0E3F8C', borderRadius: 10, paddingLeft: 26, paddingRight: 26, flexDirection: 'row', alignItems: 'center', gap: 20 }}>
+        <Box style={{ width: 52, height: 52, borderRadius: 26, background: '#1E4FA8', justifyContent: 'center', alignItems: 'center' }}>
+            <FAIcon name='map-marked-alt' style={{ fill: '#FFFFFF', width: 26, height: 26 }} />
+        </Box>
+        <Box style={{ flexDirection: 'column', gap: 4, flex: 1 }}>
+            <Text style={{ fontSize: 19, fontWeight: 'bold', color: '#FFFFFF' }}>原创落地玩法：「三缸集章 · 水乡寻韵」</Text>
+            <Text style={{ fontSize: 15, color: '#BFD4F0', lineHeight: 1.45 }}>六位小匠驻守柯桥六大真实点位，游客凭集章手账打卡，结合 AR 导览与非遗衍生品，形成可沉浸、可复用的文旅玩法。</Text>
+        </Box>
+    </Box>
+
+    <Box style={{ position: 'absolute', top: 690, left: 46, right: 46, flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
+        <Text style={{ fontSize: 14, color: '#8B97A8' }}>柯桥 · 水乡IP造物台</Text>
+        <Text style={{ fontSize: 14, color: '#1E4FA8', fontWeight: 'bold' }}>04 / 14</Text>
+    </Box>
+</Slide>

@@ -1,0 +1,64 @@
+<Slide style={{ width: 1280, height: 720, position: 'relative', background: '#0B1220', fontFamily: '微软雅黑', overflow: 'hidden' }}>
+    <Box style={{ position: 'absolute', top: 30, left: 64, flexDirection: 'row', alignItems: 'center', gap: 12 }}>
+        <Box style={{ paddingLeft: 12, paddingRight: 12, paddingTop: 5, paddingBottom: 5, borderRadius: 12, background: '#1E3A5F' }}>
+            <Text style={{ fontSize: 13, fontWeight: 'bold', color: '#7EB3F0' }}>STEP 01</Text>
+        </Box>
+        <Text style={{ fontSize: 30, fontWeight: 'bold', color: '#F1F5F9' }}>智能策划 · 我输入了什么</Text>
+        <Text style={{ fontSize: 15, color: '#7EA6D8' }}>一句创意进去，一套项目出来</Text>
+    </Box>
+    <Box style={{ position: 'absolute', top: 30, right: 64, flexDirection: 'row', alignItems: 'center', gap: 10 }}>
+        <FAIcon name='keyboard' style={{ fill: '#22D3EE', width: 18, height: 18 }} />
+        <Text style={{ fontSize: 14, color: '#67D8EA' }}>输入 → 输出</Text>
+    </Box>
+
+    <Box style={{ position: 'absolute', top: 102, left: 64, width: 424, flexDirection: 'column', gap: 10 }}>
+        <Text style={{ fontSize: 13, color: '#5B7BA6', letterSpacing: 2 }}>用户的真实输入</Text>
+        <Box style={{ padding: 18, background: '#121C2E', borderRadius: 10, border: { left: { width: 1, color: '#3B82F6' }, right: { width: 1, color: '#3B82F6' }, top: { width: 1, color: '#3B82F6' }, bottom: { width: 1, color: '#3B82F6' } } }}>
+            <Text style={{ fontSize: 17, color: '#E2ECF8', lineHeight: 1.7 }}>用柯桥三缸文化做一套水乡文旅 IP 形象，要六个角色，每个绑定一个柯桥地标或非遗，出六镜分镜脚本</Text>
+        </Box>
+        <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 8, paddingTop: 8, paddingBottom: 8, paddingLeft: 12, paddingRight: 12, background: '#0E1A2C', borderRadius: 7 }}>
+            <FAIcon name='microphone' style={{ fill: '#64748B', width: 15, height: 15 }} />
+            <Text style={{ fontSize: 13, color: '#8FA6C2' }}>支持语音输入 · 一句话即可</Text>
+        </Box>
+        <Box style={{ flexDirection: 'column', gap: 8, padding: 16, background: '#121C2E', borderRadius: 9, border: { left: { width: 3, color: '#F59E0B' } } }}>
+            <Text style={{ fontSize: 15, fontWeight: 'bold', color: '#F0B95A' }}>调用参数</Text>
+            <Text style={{ fontSize: 13, color: '#94A3B8', lineHeight: 1.6 }}>模型：senseaudio-s2<br />输出格式：json_object<br />temperature：0.7</Text>
+        </Box>
+    </Box>
+
+    <Box style={{ position: 'absolute', top: 102, left: 512, width: 704, height: 486, borderRadius: 10, overflow: 'hidden', border: { left: { width: 1, color: '#24344F' }, right: { width: 1, color: '#24344F' }, top: { width: 1, color: '#24344F' }, bottom: { width: 1, color: '#24344F' } } }}>
+        <Box style={{ height: 32, background: '#16223A', paddingLeft: 14, flexDirection: 'row', alignItems: 'center', gap: 8, border: { bottom: { width: 1, color: '#24344F' } } }}>
+            <Box style={{ width: 9, height: 9, borderRadius: 5, background: '#F09595' }} />
+            <Box style={{ width: 9, height: 9, borderRadius: 5, background: '#FAC775' }} />
+            <Box style={{ width: 9, height: 9, borderRadius: 5, background: '#97C459' }} />
+            <Text style={{ fontSize: 13, color: '#7EA6D8', marginLeft: 10 }}>系统输出 · 结构化项目模型（实际界面）</Text>
+        </Box>
+        <Image src='assets/ui_plan2.png' style={{ width: 704, height: 454, objectFit: 'cover', objectPosition: 'top' }} />
+    </Box>
+
+    <Box style={{ position: 'absolute', top: 608, left: 64, width: 1152, flexDirection: 'row', gap: 12 }}>
+        <Box style={{ flex: 1, flexDirection: 'row', alignItems: 'center', gap: 10, paddingTop: 11, paddingBottom: 11, paddingLeft: 16, paddingRight: 16, background: '#101A2B', borderRadius: 8 }}>
+            <FAIcon name='check' style={{ fill: '#10B981', width: 17, height: 17 }} />
+            <Text style={{ fontSize: 14, color: '#C4D4E8' }}>世界观设定</Text>
+        </Box>
+        <Box style={{ flex: 1, flexDirection: 'row', alignItems: 'center', gap: 10, paddingTop: 11, paddingBottom: 11, paddingLeft: 16, paddingRight: 16, background: '#101A2B', borderRadius: 8 }}>
+            <FAIcon name='check' style={{ fill: '#10B981', width: 17, height: 17 }} />
+            <Text style={{ fontSize: 14, color: '#C4D4E8' }}>六位角色设定</Text>
+        </Box>
+        <Box style={{ flex: 1, flexDirection: 'row', alignItems: 'center', gap: 10, paddingTop: 11, paddingBottom: 11, paddingLeft: 16, paddingRight: 16, background: '#101A2B', borderRadius: 8 }}>
+            <FAIcon name='check' style={{ fill: '#10B981', width: 17, height: 17 }} />
+            <Text style={{ fontSize: 14, color: '#C4D4E8' }}>六镜分镜脚本</Text>
+        </Box>
+        <Box style={{ flex: 1, flexDirection: 'row', alignItems: 'center', gap: 10, paddingTop: 11, paddingBottom: 11, paddingLeft: 16, paddingRight: 16, background: '#101A2B', borderRadius: 8 }}>
+            <FAIcon name='clock' style={{ fill: '#22D3EE', width: 17, height: 17 }} />
+            <Text style={{ fontSize: 14, color: '#C4D4E8' }}>耗时 ≈ 22 秒</Text>
+        </Box>
+    </Box>
+
+    <Box style={{ position: 'absolute', bottom: 20, left: 64, right: 64, flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
+        <Box style={{ width: 1080, height: 4, background: '#1B2941', borderRadius: 2 }}>
+            <Box style={{ width: 324, height: 4, background: '#3B82F6', borderRadius: 2 }} />
+        </Box>
+        <Text style={{ fontSize: 14, color: '#3B82F6', fontWeight: 'bold' }}>03 / 10</Text>
+    </Box>
+</Slide>

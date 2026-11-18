@@ -1,0 +1,114 @@
+<Slide style={{ width: 1280, height: 720, position: 'relative', background: '#F7F9FC', fontFamily: '微软雅黑' }}>
+    <Box style={{ position: 'absolute', top: 0, left: 0, width: 1280, height: 104, background: '#1E4FA8' }} />
+    <Box style={{ position: 'absolute', top: 0, right: 0, width: 420, height: 104, background: 'linear-gradient(90deg, rgba(14,63,140,0) 0%, rgba(14,63,140,0.85) 100%)' }} />
+    <Box style={{ position: 'absolute', top: 22, left: 46, flexDirection: 'column', gap: 6 }}>
+        <Text style={{ fontSize: 32, fontWeight: 'bold', color: '#FFFFFF' }}>IP 家族 · 六位水乡小匠</Text>
+        <Text style={{ fontSize: 15, color: '#BFD4F0' }}>每位绑定一处柯桥真实地标 / 非遗 · 差异化性格与视觉标识</Text>
+    </Box>
+    <Box style={{ position: 'absolute', top: 30, right: 46, flexDirection: 'row', alignItems: 'center', gap: 10 }}>
+        <FAIcon name='layer-group' style={{ fill: '#8FB0E0', width: 22, height: 22 }} />
+        <Text style={{ fontSize: 16, color: '#DCE8F8' }}>3–7 角色区间 · 6 位</Text>
+    </Box>
+
+    <Box style={{ position: 'absolute', top: 126, left: 40, width: 1200, flexDirection: 'row', gap: 19 }}>
+        <Box style={{ width: 184, flexDirection: 'column', background: '#FFFFFF', borderRadius: 10, overflow: 'hidden', boxShadow: '0 4px 16px rgba(30,79,168,0.10)' }}>
+            <Box style={{ width: 184, height: 244, background: '#E8EFF8' }}>
+                <Image src='assets/char_ajian.jpg' style={{ width: 184, height: 244, objectFit: 'cover' }} />
+            </Box>
+            <Box style={{ flexDirection: 'column', gap: 5, padding: 12 }}>
+                <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 8 }}>
+                    <Box style={{ width: 10, height: 10, background: '#2E7DB5', borderRadius: 5 }} />
+                    <Text style={{ fontSize: 21, fontWeight: 'bold', color: '#1A2230' }}>阿鉴</Text>
+                </Box>
+                <Text style={{ fontSize: 13, color: '#1E4FA8', fontWeight: 'bold' }}>鉴湖 · 乌篷船</Text>
+                <Text style={{ fontSize: 13, color: '#4A5568', lineHeight: 1.35 }}>温和 · 善引路 · 慢生活</Text>
+                <Text style={{ fontSize: 12, color: '#8B97A8' }}>标识：乌毡帽 + 水纹披风</Text>
+            </Box>
+        </Box>
+
+        <Box style={{ width: 184, flexDirection: 'column', background: '#FFFFFF', borderRadius: 10, overflow: 'hidden', boxShadow: '0 4px 16px rgba(30,79,168,0.10)' }}>
+            <Box style={{ width: 184, height: 244, background: '#E8EFF8' }}>
+                <Image src='assets/char_achun.jpg' style={{ width: 184, height: 244, objectFit: 'cover' }} />
+            </Box>
+            <Box style={{ flexDirection: 'column', gap: 5, padding: 12 }}>
+                <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 8 }}>
+                    <Box style={{ width: 10, height: 10, background: '#C8892B', borderRadius: 5 }} />
+                    <Text style={{ fontSize: 21, fontWeight: 'bold', color: '#1A2230' }}>阿醇</Text>
+                </Box>
+                <Text style={{ fontSize: 13, color: '#1E4FA8', fontWeight: 'bold' }}>绍兴黄酒（国家级非遗）</Text>
+                <Text style={{ fontSize: 13, color: '#4A5568', lineHeight: 1.35 }}>憨厚 · 豪爽 · 热心肠</Text>
+                <Text style={{ fontSize: 12, color: '#8B97A8' }}>标识：抱酒坛 + 微醺红晕</Text>
+            </Box>
+        </Box>
+
+        <Box style={{ width: 184, flexDirection: 'column', background: '#FFFFFF', borderRadius: 10, overflow: 'hidden', boxShadow: '0 4px 16px rgba(30,79,168,0.10)' }}>
+            <Box style={{ width: 184, height: 244, background: '#E8EFF8' }}>
+                <Image src='assets/char_xianbao.jpg' style={{ width: 184, height: 244, objectFit: 'cover' }} />
+            </Box>
+            <Box style={{ flexDirection: 'column', gap: 5, padding: 12 }}>
+                <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 8 }}>
+                    <Box style={{ width: 10, height: 10, background: '#8C4A2F', borderRadius: 5 }} />
+                    <Text style={{ fontSize: 21, fontWeight: 'bold', color: '#1A2230' }}>鲜宝</Text>
+                </Box>
+                <Text style={{ fontSize: 13, color: '#1E4FA8', fontWeight: 'bold' }}>仁昌酱园（省级非遗）</Text>
+                <Text style={{ fontSize: 13, color: '#4A5568', lineHeight: 1.35 }}>勤恳 · 守时 · 爱「晒」</Text>
+                <Text style={{ fontSize: 12, color: '#8B97A8' }}>标识：酱缸帽 + 腊味挂饰</Text>
+            </Box>
+        </Box>
+
+        <Box style={{ width: 184, flexDirection: 'column', background: '#FFFFFF', borderRadius: 10, overflow: 'hidden', boxShadow: '0 4px 16px rgba(30,79,168,0.10)' }}>
+            <Box style={{ width: 184, height: 244, background: '#E8EFF8' }}>
+                <Image src='assets/char_buxiaocai.jpg' style={{ width: 184, height: 244, objectFit: 'cover' }} />
+            </Box>
+            <Box style={{ flexDirection: 'column', gap: 5, padding: 12 }}>
+                <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 8 }}>
+                    <Box style={{ width: 10, height: 10, background: '#2F5D8C', borderRadius: 5 }} />
+                    <Text style={{ fontSize: 21, fontWeight: 'bold', color: '#1A2230' }}>布小彩</Text>
+                </Box>
+                <Text style={{ fontSize: 13, color: '#1E4FA8', fontWeight: 'bold' }}>蓝印花布 · 轻纺城</Text>
+                <Text style={{ fontSize: 13, color: '#4A5568', lineHeight: 1.35 }}>灵巧 · 爱美 · 会变装</Text>
+                <Text style={{ fontSize: 12, color: '#8B97A8' }}>标识：蓝印围裙 + 染棒</Text>
+            </Box>
+        </Box>
+
+        <Box style={{ width: 184, flexDirection: 'column', background: '#FFFFFF', borderRadius: 10, overflow: 'hidden', boxShadow: '0 4px 16px rgba(30,79,168,0.10)' }}>
+            <Box style={{ width: 184, height: 244, background: '#E8EFF8' }}>
+                <Image src='assets/char_shanxiaoya.jpg' style={{ width: 184, height: 244, objectFit: 'cover' }} />
+            </Box>
+            <Box style={{ flexDirection: 'column', gap: 5, padding: 12 }}>
+                <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 8 }}>
+                    <Box style={{ width: 10, height: 10, background: '#2F6B4F', borderRadius: 5 }} />
+                    <Text style={{ fontSize: 21, fontWeight: 'bold', color: '#1A2230' }}>扇小雅</Text>
+                </Box>
+                <Text style={{ fontSize: 13, color: '#1E4FA8', fontWeight: 'bold' }}>王星记扇（国家级非遗）</Text>
+                <Text style={{ fontSize: 13, color: '#4A5568', lineHeight: 1.35 }}>风雅 · 睿智 · 爱丹青</Text>
+                <Text style={{ fontSize: 12, color: '#8B97A8' }}>标识：手持黑纸折扇</Text>
+            </Box>
+        </Box>
+
+        <Box style={{ width: 184, flexDirection: 'column', background: '#FFFFFF', borderRadius: 10, overflow: 'hidden', boxShadow: '0 4px 16px rgba(30,79,168,0.10)' }}>
+            <Box style={{ width: 184, height: 244, background: '#E8EFF8' }}>
+                <Image src='assets/char_lixiaoshe.jpg' style={{ width: 184, height: 244, objectFit: 'cover' }} />
+            </Box>
+            <Box style={{ flexDirection: 'column', gap: 5, padding: 12 }}>
+                <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 8 }}>
+                    <Box style={{ width: 10, height: 10, background: '#C0392B', borderRadius: 5 }} />
+                    <Text style={{ fontSize: 21, fontWeight: 'bold', color: '#1A2230' }}>梨小社</Text>
+                </Box>
+                <Text style={{ fontSize: 13, color: '#1E4FA8', fontWeight: 'bold' }}>鲁镇 · 水乡社戏 · 越剧</Text>
+                <Text style={{ fontSize: 13, color: '#4A5568', lineHeight: 1.35 }}>热情 · 爱唱演 · 人来疯</Text>
+                <Text style={{ fontSize: 12, color: '#8B97A8' }}>标识：水袖戏服 + 脸谱妆</Text>
+            </Box>
+        </Box>
+    </Box>
+
+    <Box style={{ position: 'absolute', top: 600, left: 40, width: 1200, height: 56, background: '#E8EFF8', borderRadius: 8, paddingLeft: 22, paddingRight: 22, flexDirection: 'row', alignItems: 'center', gap: 16 }}>
+        <FAIcon name='check-circle' style={{ fill: '#1E4FA8', width: 26, height: 26 }} />
+        <Text style={{ fontSize: 16, color: '#1A2230' }}>六位角色<b>逐个绑定柯桥真实地标与非遗</b>——鉴湖 / 黄酒 / 仁昌酱园 / 蓝印花布 / 王星记扇 / 鲁镇社戏，满足「深度融合柯桥非遗与文脉内核」要求。</Text>
+    </Box>
+
+    <Box style={{ position: 'absolute', top: 690, left: 46, right: 46, flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
+        <Text style={{ fontSize: 14, color: '#8B97A8' }}>柯桥 · 水乡IP造物台</Text>
+        <Text style={{ fontSize: 14, color: '#1E4FA8', fontWeight: 'bold' }}>05 / 14</Text>
+    </Box>
+</Slide>

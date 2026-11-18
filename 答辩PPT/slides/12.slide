@@ -1,0 +1,83 @@
+<Slide style={{ width: 1280, height: 720, position: 'relative', background: '#FFFFFF', fontFamily: '微软雅黑' }}>
+    <Box style={{ position: 'absolute', top: 30, left: 46, width: 1188, flexDirection: 'column', gap: 6 }}>
+        <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 14 }}>
+            <Box style={{ width: 6, height: 32, background: '#C0392B' }} />
+            <Text style={{ fontSize: 34, fontWeight: 'bold', color: '#1A2230' }}>AIGC 占比 80% · 生成质量实证</Text>
+        </Box>
+        <Text style={{ fontSize: 17, color: '#8B97A8', marginLeft: 20 }}>赛题红线：AIGC 参与创作占比不得低于 60%</Text>
+    </Box>
+
+    <Box style={{ position: 'absolute', top: 128, left: 40, width: 400, height: 386, background: '#0E3F8C', borderRadius: 12, flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: 8 }}>
+        <Text style={{ fontSize: 15, color: '#8FB0E0', letterSpacing: 2 }}>AIGC 参与创作占比</Text>
+        <Box style={{ flexDirection: 'row', alignItems: 'flex-end', gap: 4 }}>
+            <Text style={{ fontSize: 132, fontWeight: 'bold', color: '#FFFFFF', lineHeight: 1.0, letterSpacing: -3 }}>80</Text>
+            <Text style={{ fontSize: 52, fontWeight: 'bold', color: '#E8B4AE', lineHeight: 1.0, marginBottom: 14 }}>%</Text>
+        </Box>
+        <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 10, paddingLeft: 16, paddingRight: 16, paddingTop: 7, paddingBottom: 7, background: '#C0392B', borderRadius: 16, marginTop: 8 }}>
+            <FAIcon name='check' style={{ fill: '#FFFFFF', width: 15, height: 15 }} />
+            <Text style={{ fontSize: 15, fontWeight: 'bold', color: '#FFFFFF' }}>远超 60% 红线要求</Text>
+        </Box>
+        <Text style={{ fontSize: 14, color: '#BFD4F0', textAlign: 'center', marginTop: 12, lineHeight: 1.5 }}>创意本体由 AI 生成承担<br />人工负责提示词工程与流程编排</Text>
+    </Box>
+
+    <Box style={{ position: 'absolute', top: 128, left: 464, width: 776, flexDirection: 'column', gap: 10 }}>
+        <Text style={{ fontSize: 18, fontWeight: 'bold', color: '#1A2230' }}>各环节 AIGC 参与度拆分</Text>
+
+        <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 12, paddingTop: 8, paddingBottom: 8 }}>
+            <Text style={{ fontSize: 15, color: '#1A2230', width: 96, fontWeight: 'bold' }}>智能策划</Text>
+            <Box style={{ flex: 1, height: 20, background: '#E8EFF8', borderRadius: 10, flexDirection: 'row', overflow: 'hidden' }}>
+                <Box style={{ width: 90, height: 20, background: '#1E4FA8', borderRadius: 10 }} />
+            </Box>
+            <Text style={{ fontSize: 16, fontWeight: 'bold', color: '#1E4FA8', width: 52, textAlign: 'right' }}>90%</Text>
+        </Box>
+        <Text style={{ fontSize: 13, color: '#8B97A8', marginTop: -4 }}>世界观 / 角色 / 分镜脚本由 LLM 结构化生成</Text>
+
+        <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 12, paddingTop: 8, paddingBottom: 8 }}>
+            <Text style={{ fontSize: 15, color: '#1A2230', width: 96, fontWeight: 'bold' }}>角色资产</Text>
+            <Box style={{ flex: 1, height: 20, background: '#E8EFF8', borderRadius: 10, flexDirection: 'row', overflow: 'hidden' }}>
+                <Box style={{ width: 85, height: 20, background: '#1E4FA8', borderRadius: 10 }} />
+            </Box>
+            <Text style={{ fontSize: 16, fontWeight: 'bold', color: '#1E4FA8', width: 52, textAlign: 'right' }}>85%</Text>
+        </Box>
+        <Text style={{ fontSize: 13, color: '#8B97A8', marginTop: -4 }}>六位角色立绘全部由文生图模型生成</Text>
+
+        <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 12, paddingTop: 8, paddingBottom: 8 }}>
+            <Text style={{ fontSize: 15, color: '#1A2230', width: 96, fontWeight: 'bold' }}>分镜生成</Text>
+            <Box style={{ flex: 1, height: 20, background: '#E8EFF8', borderRadius: 10, flexDirection: 'row', overflow: 'hidden' }}>
+                <Box style={{ width: 80, height: 20, background: '#1E4FA8', borderRadius: 10 }} />
+            </Box>
+            <Text style={{ fontSize: 16, fontWeight: 'bold', color: '#1E4FA8', width: 52, textAlign: 'right' }}>80%</Text>
+        </Box>
+        <Text style={{ fontSize: 13, color: '#8B97A8', marginTop: -4 }}>逐镜画面生成 + reference 一致性约束</Text>
+
+        <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 12, paddingTop: 8, paddingBottom: 8 }}>
+            <Text style={{ fontSize: 15, color: '#1A2230', width: 96, fontWeight: 'bold' }}>配音 / 文案</Text>
+            <Box style={{ flex: 1, height: 20, background: '#E8EFF8', borderRadius: 10, flexDirection: 'row', overflow: 'hidden' }}>
+                <Box style={{ width: 73, height: 20, background: '#1E4FA8', borderRadius: 10 }} />
+            </Box>
+            <Text style={{ fontSize: 16, fontWeight: 'bold', color: '#1E4FA8', width: 52, textAlign: 'right' }}>73%</Text>
+        </Box>
+        <Text style={{ fontSize: 13, color: '#8B97A8', marginTop: -4 }}>语音合成 + 角色宣传语文案生成</Text>
+
+        <Box style={{ flexDirection: 'row', gap: 12, marginTop: 6 }}>
+            <Box style={{ flex: 1, padding: 12, background: '#F7F9FC', borderRadius: 8, border: { left: { width: 4, color: '#1E4FA8' } } }}>
+                <Text style={{ fontSize: 14, fontWeight: 'bold', color: '#0E3F8C' }}>四模态模型</Text>
+                <Text style={{ fontSize: 12, color: '#4A5568', lineHeight: 1.4, marginTop: 4 }}>LLM · 文生图 · TTS · ASR<br />端到端实测全部通过</Text>
+            </Box>
+            <Box style={{ flex: 1, padding: 12, background: '#F7F9FC', borderRadius: 8, border: { left: { width: 4, color: '#1E4FA8' } } }}>
+                <Text style={{ fontSize: 14, fontWeight: 'bold', color: '#0E3F8C' }}>过程可追溯</Text>
+                <Text style={{ fontSize: 12, color: '#4A5568', lineHeight: 1.4, marginTop: 4 }}>每环节记录工具选型<br />核心参数与提示词逻辑</Text>
+            </Box>
+        </Box>
+    </Box>
+
+    <Box style={{ position: 'absolute', top: 538, left: 40, width: 1200, height: 96, background: '#E8EFF8', borderRadius: 8, paddingLeft: 24, paddingRight: 24, flexDirection: 'column', justifyContent: 'center', gap: 6, border: { left: { width: 6, color: '#1E4FA8' } } }}>
+        <Text style={{ fontSize: 18, fontWeight: 'bold', color: '#0E3F8C' }}>为什么占比是 80% 而不是更高</Text>
+        <Text style={{ fontSize: 15, color: '#4A5568', lineHeight: 1.45 }}>画面与文本本身全部由 AI 生成；人工投入集中在 <b>提示词工程、参数调优与链路编排</b>——这部分恰是保证文化匹配度与角色一致性的关键，故按实核算为 80%，而非虚报满分。</Text>
+    </Box>
+
+    <Box style={{ position: 'absolute', top: 690, left: 46, right: 46, flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
+        <Text style={{ fontSize: 14, color: '#8B97A8' }}>柯桥 · 水乡IP造物台</Text>
+        <Text style={{ fontSize: 14, color: '#1E4FA8', fontWeight: 'bold' }}>12 / 14</Text>
+    </Box>
+</Slide>

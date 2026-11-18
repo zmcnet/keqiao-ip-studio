@@ -1,0 +1,51 @@
+<Slide style={{ width: 1280, height: 720, position: 'relative', background: '#0B1220', fontFamily: '微软雅黑', overflow: 'hidden' }}>
+    <Box style={{ position: 'absolute', top: 30, left: 64, flexDirection: 'row', alignItems: 'center', gap: 12 }}>
+        <Box style={{ paddingLeft: 12, paddingRight: 12, paddingTop: 5, paddingBottom: 5, borderRadius: 12, background: '#1E3A5F' }}>
+            <Text style={{ fontSize: 13, fontWeight: 'bold', color: '#7EB3F0' }}>STEP 03</Text>
+        </Box>
+        <Text style={{ fontSize: 30, fontWeight: 'bold', color: '#F1F5F9' }}>分镜生成 · 参考图怎么注入的</Text>
+    </Box>
+    <Box style={{ position: 'absolute', top: 30, right: 64, flexDirection: 'row', alignItems: 'center', gap: 10 }}>
+        <Box style={{ width: 8, height: 8, borderRadius: 4, background: '#10B981' }} />
+        <Text style={{ fontSize: 14, color: '#7EA6D8' }}>6 镜 · 耗时 ≈ 46s</Text>
+    </Box>
+
+    <Box style={{ position: 'absolute', top: 100, left: 64, width: 1152, height: 300, borderRadius: 10, overflow: 'hidden', border: { left: { width: 1, color: '#24344F' }, right: { width: 1, color: '#24344F' }, top: { width: 1, color: '#24344F' }, bottom: { width: 1, color: '#24344F' } } }}>
+        <Box style={{ height: 32, background: '#16223A', paddingLeft: 14, flexDirection: 'row', alignItems: 'center', gap: 8, border: { bottom: { width: 1, color: '#24344F' } } }}>
+            <Box style={{ width: 9, height: 9, borderRadius: 5, background: '#F09595' }} />
+            <Box style={{ width: 9, height: 9, borderRadius: 5, background: '#FAC775' }} />
+            <Box style={{ width: 9, height: 9, borderRadius: 5, background: '#97C459' }} />
+            <Text style={{ fontSize: 13, color: '#7EA6D8', marginLeft: 10 }}>系统输出 · 分镜生成界面（每镜右侧标注了绑定的参考图）</Text>
+        </Box>
+        <Image src='assets/ui_shots.png' style={{ width: 1152, height: 268, objectFit: 'cover', objectPosition: 'top' }} />
+    </Box>
+
+    <Box style={{ position: 'absolute', top: 420, left: 64, width: 1152, flexDirection: 'column', gap: 10 }}>
+        <Text style={{ fontSize: 16, fontWeight: 'bold', color: '#22D3EE' }}>每一次分镜调用的实际参数</Text>
+        <Box style={{ flexDirection: 'row', gap: 12 }}>
+            <Box style={{ flex: 1, flexDirection: 'column', gap: 6, padding: 14, background: '#121C2E', borderRadius: 8, border: { left: { width: 3, color: '#3B82F6' } } }}>
+                <Text style={{ fontSize: 13, color: '#5B7BA6' }}>镜 01 · 鉴湖晨雾</Text>
+                <Text style={{ fontSize: 13, color: '#C4D4E8', lineHeight: 1.5 }}>reference = 阿鉴种子图<br />景别：大远景 · 缓慢推近</Text>
+            </Box>
+            <Box style={{ flex: 1, flexDirection: 'column', gap: 6, padding: 14, background: '#121C2E', borderRadius: 8, border: { left: { width: 3, color: '#3B82F6' } } }}>
+                <Text style={{ fontSize: 13, color: '#5B7BA6' }}>镜 02 · 安昌酱香</Text>
+                <Text style={{ fontSize: 13, color: '#C4D4E8', lineHeight: 1.5 }}>reference = 鲜宝种子图<br />景别：中景 · 跟拍</Text>
+            </Box>
+            <Box style={{ flex: 1, flexDirection: 'column', gap: 6, padding: 14, background: '#121C2E', borderRadius: 8, border: { left: { width: 3, color: '#3B82F6' } } }}>
+                <Text style={{ fontSize: 13, color: '#5B7BA6' }}>镜 03 · 柯岩揽胜</Text>
+                <Text style={{ fontSize: 13, color: '#C4D4E8', lineHeight: 1.5 }}>reference = 阿醇种子图<br />景别：全景 · 上升</Text>
+            </Box>
+            <Box style={{ flex: 1, flexDirection: 'column', gap: 6, padding: 14, background: '#121C2E', borderRadius: 8, border: { left: { width: 3, color: '#3B82F6' } } }}>
+                <Text style={{ fontSize: 13, color: '#5B7BA6' }}>镜 04 · 三桥夜泊</Text>
+                <Text style={{ fontSize: 13, color: '#C4D4E8', lineHeight: 1.5 }}>reference = 布小彩种子图<br />景别：近景 · 缓摇</Text>
+            </Box>
+        </Box>
+    </Box>
+
+    <Box style={{ position: 'absolute', bottom: 20, left: 64, right: 64, flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
+        <Box style={{ width: 1080, height: 4, background: '#1B2941', borderRadius: 2 }}>
+            <Box style={{ width: 540, height: 4, background: '#3B82F6', borderRadius: 2 }} />
+        </Box>
+        <Text style={{ fontSize: 14, color: '#3B82F6', fontWeight: 'bold' }}>05 / 10</Text>
+    </Box>
+</Slide>

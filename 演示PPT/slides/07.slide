@@ -1,0 +1,73 @@
+<Slide style={{ width: 1280, height: 720, position: 'relative', background: '#0B1220', fontFamily: '微软雅黑', overflow: 'hidden' }}>
+    <Box style={{ position: 'absolute', top: 30, left: 64, flexDirection: 'row', alignItems: 'center', gap: 12 }}>
+        <Box style={{ paddingLeft: 12, paddingRight: 12, paddingTop: 5, paddingBottom: 5, borderRadius: 12, background: '#1E3A5F' }}>
+            <Text style={{ fontSize: 13, fontWeight: 'bold', color: '#7EB3F0' }}>STEP 05</Text>
+        </Box>
+        <Text style={{ fontSize: 30, fontWeight: 'bold', color: '#F1F5F9' }}>成片导出 · 点一下拿到什么</Text>
+    </Box>
+    <Box style={{ position: 'absolute', top: 30, right: 64, flexDirection: 'row', alignItems: 'center', gap: 10 }}>
+        <Box style={{ width: 8, height: 8, borderRadius: 4, background: '#F59E0B' }} />
+        <Text style={{ fontSize: 14, color: '#F0B95A' }}>耗时 ≈ 6s</Text>
+    </Box>
+
+    <Box style={{ position: 'absolute', top: 100, left: 64, width: 640, height: 470, borderRadius: 10, overflow: 'hidden', border: { left: { width: 1, color: '#24344F' }, right: { width: 1, color: '#24344F' }, top: { width: 1, color: '#24344F' }, bottom: { width: 1, color: '#24344F' } } }}>
+        <Box style={{ height: 32, background: '#16223A', paddingLeft: 14, flexDirection: 'row', alignItems: 'center', gap: 8, border: { bottom: { width: 1, color: '#24344F' } } }}>
+            <Box style={{ width: 9, height: 9, borderRadius: 5, background: '#F09595' }} />
+            <Box style={{ width: 9, height: 9, borderRadius: 5, background: '#FAC775' }} />
+            <Box style={{ width: 9, height: 9, borderRadius: 5, background: '#97C459' }} />
+            <Text style={{ fontSize: 13, color: '#7EA6D8', marginLeft: 10 }}>系统输出 · 导出面板（实际界面）</Text>
+        </Box>
+        <Image src='assets/ui_export.png' style={{ width: 640, height: 438, objectFit: 'cover', objectPosition: 'top' }} />
+    </Box>
+
+    <Box style={{ position: 'absolute', top: 100, left: 728, width: 488, flexDirection: 'column', gap: 9 }}>
+        <Text style={{ fontSize: 16, fontWeight: 'bold', color: '#22D3EE' }}>实际产出的五类文件</Text>
+        <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 11, padding: 12, background: '#121C2E', borderRadius: 8 }}>
+            <FAIcon name='file-text' style={{ fill: '#3B82F6', width: 19, height: 19 }} />
+            <Box style={{ flexDirection: 'column' }}>
+                <Text style={{ fontSize: 15, color: '#E2ECF8' }}>作品说明文档</Text>
+                <Text style={{ fontSize: 12, color: '#7EA6D8' }}>.md / .docx</Text>
+            </Box>
+        </Box>
+        <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 11, padding: 12, background: '#121C2E', borderRadius: 8 }}>
+            <FAIcon name='clapperboard' style={{ fill: '#3B82F6', width: 19, height: 19 }} />
+            <Box style={{ flexDirection: 'column' }}>
+                <Text style={{ fontSize: 15, color: '#E2ECF8' }}>分镜脚本</Text>
+                <Text style={{ fontSize: 12, color: '#7EA6D8' }}>含景别 / 台词 / 情绪</Text>
+            </Box>
+        </Box>
+        <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 11, padding: 12, background: '#121C2E', borderRadius: 8 }}>
+            <FAIcon name='database' style={{ fill: '#3B82F6', width: 19, height: 19 }} />
+            <Box style={{ flexDirection: 'column' }}>
+                <Text style={{ fontSize: 15, color: '#E2ECF8' }}>全量项目文件</Text>
+                <Text style={{ fontSize: 12, color: '#7EA6D8' }}>.json 结构化模型</Text>
+            </Box>
+        </Box>
+        <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 11, padding: 12, background: '#121C2E', borderRadius: 8 }}>
+            <FAIcon name='images' style={{ fill: '#3B82F6', width: 19, height: 19 }} />
+            <Box style={{ flexDirection: 'column' }}>
+                <Text style={{ fontSize: 15, color: '#E2ECF8' }}>角色标准立绘</Text>
+                <Text style={{ fontSize: 12, color: '#7EA6D8' }}>6 张 · 1024×1536</Text>
+            </Box>
+        </Box>
+        <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 11, padding: 12, background: '#18243A', borderRadius: 8, border: { left: { width: 3, color: '#F59E0B' } } }}>
+            <FAIcon name='file-image' style={{ fill: '#F59E0B', width: 19, height: 19 }} />
+            <Box style={{ flexDirection: 'column' }}>
+                <Text style={{ fontSize: 15, color: '#FFFFFF', fontWeight: 'bold' }}>A3 规格海报</Text>
+                <Text style={{ fontSize: 12, color: '#B9CCE4' }}>300dpi · 可直接印刷</Text>
+            </Box>
+        </Box>
+    </Box>
+
+    <Box style={{ position: 'absolute', top: 592, left: 64, width: 1152, flexDirection: 'row', alignItems: 'center', gap: 14, paddingTop: 12, paddingBottom: 12, paddingLeft: 18, paddingRight: 18, background: '#0E1A2C', borderRadius: 9, border: { left: { width: 1, color: '#24344F' }, right: { width: 1, color: '#24344F' }, top: { width: 1, color: '#24344F' }, bottom: { width: 1, color: '#24344F' } } }}>
+        <FAIcon name='box-archive' style={{ fill: '#22D3EE', width: 24, height: 24 }} />
+        <Text style={{ fontSize: 15, color: '#C4D4E8' }}>从一句创意到一套可交付成果，<b>全程无需人工打开任何图像软件</b>。</Text>
+    </Box>
+
+    <Box style={{ position: 'absolute', bottom: 20, left: 64, right: 64, flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
+        <Box style={{ width: 1080, height: 4, background: '#1B2941', borderRadius: 2 }}>
+            <Box style={{ width: 756, height: 4, background: '#3B82F6', borderRadius: 2 }} />
+        </Box>
+        <Text style={{ fontSize: 14, color: '#3B82F6', fontWeight: 'bold' }}>07 / 10</Text>
+    </Box>
+</Slide>

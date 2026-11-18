@@ -1,0 +1,84 @@
+<Slide style={{ width: 1280, height: 720, position: 'relative', background: '#FFFFFF', fontFamily: '微软雅黑' }}>
+    <Box style={{ position: 'absolute', top: 30, left: 46, width: 1188, flexDirection: 'column', gap: 6 }}>
+        <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 14 }}>
+            <Box style={{ width: 6, height: 32, background: '#C0392B' }} />
+            <Text style={{ fontSize: 34, fontWeight: 'bold', color: '#1A2230' }}>工作台实操 · 真实运行实证</Text>
+        </Box>
+        <Text style={{ fontSize: 17, color: '#8B97A8', marginLeft: 20 }}>真实驱动浏览器走完五环 · 截图取自作品实际运行界面</Text>
+    </Box>
+
+    <Box style={{ position: 'absolute', top: 122, left: 40, width: 760, height: 300, borderRadius: 10, overflow: 'hidden', border: { left: { width: 1, color: '#D6DCE5' }, right: { width: 1, color: '#D6DCE5' }, top: { width: 1, color: '#D6DCE5' }, bottom: { width: 1, color: '#D6DCE5' } }, boxShadow: '0 6px 24px rgba(30,79,168,0.14)' }}>
+        <Box style={{ height: 32, background: '#1E4FA8', paddingLeft: 16, flexDirection: 'row', alignItems: 'center', gap: 8 }}>
+            <Box style={{ width: 10, height: 10, borderRadius: 5, background: '#E8B4AE' }} />
+            <Box style={{ width: 10, height: 10, borderRadius: 5, background: '#F3E2C0' }} />
+            <Box style={{ width: 10, height: 10, borderRadius: 5, background: '#BFD4F0' }} />
+            <Text style={{ fontSize: 13, color: '#BFD4F0', marginLeft: 10 }}>柯桥 · 水乡IP造物台 — 分镜生成环节</Text>
+        </Box>
+        <Image src='assets/ui_shots.png' style={{ width: 760, height: 268, objectFit: 'cover', objectPosition: 'top' }} />
+    </Box>
+
+    <Box style={{ position: 'absolute', top: 122, left: 820, width: 420, height: 300, flexDirection: 'column', gap: 9 }}>
+        <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 10, padding: 10, height: 94, background: '#E8EFF8', borderRadius: 8 }}>
+            <FAIcon name='circle' style={{ fill: '#10B981', width: 22, height: 22 }} />
+            <Box style={{ flexDirection: 'column', gap: 3, flex: 1 }}>
+                <Text style={{ fontSize: 17, fontWeight: 'bold', color: '#0E3F8C' }}>真实模型已连接</Text>
+                <Text style={{ fontSize: 13, color: '#4A5568', lineHeight: 1.35 }}>启动时探测服务健康度，连通即调用真实 SenseAudio 全模态模型。</Text>
+            </Box>
+        </Box>
+        <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 10, padding: 10, height: 94, background: '#E8EFF8', borderRadius: 8 }}>
+            <FAIcon name='random' style={{ fill: '#1E4FA8', width: 22, height: 22 }} />
+            <Box style={{ flexDirection: 'column', gap: 3, flex: 1 }}>
+                <Text style={{ fontSize: 17, fontWeight: 'bold', color: '#0E3F8C' }}>自动降级保障</Text>
+                <Text style={{ fontSize: 13, color: '#4A5568', lineHeight: 1.35 }}>服务不可用时回退模拟层，界面与流程完全一致，任何环境都能演示。</Text>
+            </Box>
+        </Box>
+        <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 10, padding: 10, height: 94, background: '#E8EFF8', borderRadius: 8 }}>
+            <FAIcon name='comments' style={{ fill: '#1E4FA8', width: 22, height: 22 }} />
+            <Box style={{ flexDirection: 'column', gap: 3, flex: 1 }}>
+                <Text style={{ fontSize: 17, fontWeight: 'bold', color: '#0E3F8C' }}>对话式编辑</Text>
+                <Text style={{ fontSize: 13, color: '#4A5568', lineHeight: 1.35 }}>一句「把第 3 镜改成近景」，系统即解析意图并改写对应分镜参数。</Text>
+            </Box>
+        </Box>
+    </Box>
+
+    <Box style={{ position: 'absolute', top: 442, left: 40, width: 1200, flexDirection: 'column', gap: 12 }}>
+        <Text style={{ fontSize: 18, fontWeight: 'bold', color: '#1A2230' }}>五环真实界面一览（自上而下 · 左起依次）</Text>
+        <Box style={{ flexDirection: 'row', gap: 11 }}>
+            <Box style={{ width: 230, flexDirection: 'column', borderRadius: 7, overflow: 'hidden', border: { left: { width: 1, color: '#D6DCE5' }, right: { width: 1, color: '#D6DCE5' }, top: { width: 1, color: '#D6DCE5' }, bottom: { width: 1, color: '#D6DCE5' } } }}>
+                <Image src='assets/ui_plan.png' style={{ width: 230, height: 118, objectFit: 'cover', objectPosition: 'top' }} />
+                <Box style={{ paddingTop: 6, paddingBottom: 6, background: '#F7F9FC', justifyContent: 'center', alignItems: 'center' }}>
+                    <Text style={{ fontSize: 13, color: '#1E4FA8', fontWeight: 'bold' }}>① 智能策划</Text>
+                </Box>
+            </Box>
+            <Box style={{ width: 230, flexDirection: 'column', borderRadius: 7, overflow: 'hidden', border: { left: { width: 1, color: '#D6DCE5' }, right: { width: 1, color: '#D6DCE5' }, top: { width: 1, color: '#D6DCE5' }, bottom: { width: 1, color: '#D6DCE5' } } }}>
+                <Image src='assets/ui_assets.png' style={{ width: 230, height: 118, objectFit: 'cover', objectPosition: 'top' }} />
+                <Box style={{ paddingTop: 6, paddingBottom: 6, background: '#F7F9FC', justifyContent: 'center', alignItems: 'center' }}>
+                    <Text style={{ fontSize: 13, color: '#1E4FA8', fontWeight: 'bold' }}>② 角色资产锁定</Text>
+                </Box>
+            </Box>
+            <Box style={{ width: 230, flexDirection: 'column', borderRadius: 7, overflow: 'hidden', border: { left: { width: 1, color: '#D6DCE5' }, right: { width: 1, color: '#D6DCE5' }, top: { width: 1, color: '#D6DCE5' }, bottom: { width: 1, color: '#D6DCE5' } } }}>
+                <Image src='assets/ui_shots.png' style={{ width: 230, height: 118, objectFit: 'cover', objectPosition: 'top' }} />
+                <Box style={{ paddingTop: 6, paddingBottom: 6, background: '#F7F9FC', justifyContent: 'center', alignItems: 'center' }}>
+                    <Text style={{ fontSize: 13, color: '#1E4FA8', fontWeight: 'bold' }}>③ 分镜生成</Text>
+                </Box>
+            </Box>
+            <Box style={{ width: 230, flexDirection: 'column', borderRadius: 7, overflow: 'hidden', border: { left: { width: 1, color: '#D6DCE5' }, right: { width: 1, color: '#D6DCE5' }, top: { width: 1, color: '#D6DCE5' }, bottom: { width: 1, color: '#D6DCE5' } } }}>
+                <Image src='assets/ui_edit.png' style={{ width: 230, height: 118, objectFit: 'cover', objectPosition: 'top' }} />
+                <Box style={{ paddingTop: 6, paddingBottom: 6, background: '#F7F9FC', justifyContent: 'center', alignItems: 'center' }}>
+                    <Text style={{ fontSize: 13, color: '#1E4FA8', fontWeight: 'bold' }}>④ 时间轴 + 编辑</Text>
+                </Box>
+            </Box>
+            <Box style={{ width: 230, flexDirection: 'column', borderRadius: 7, overflow: 'hidden', border: { left: { width: 1, color: '#D6DCE5' }, right: { width: 1, color: '#D6DCE5' }, top: { width: 1, color: '#D6DCE5' }, bottom: { width: 1, color: '#D6DCE5' } } }}>
+                <Image src='assets/ui_export.png' style={{ width: 230, height: 118, objectFit: 'cover', objectPosition: 'top' }} />
+                <Box style={{ paddingTop: 6, paddingBottom: 6, background: '#F7F9FC', justifyContent: 'center', alignItems: 'center' }}>
+                    <Text style={{ fontSize: 13, color: '#1E4FA8', fontWeight: 'bold' }}>⑤ 成片导出</Text>
+                </Box>
+            </Box>
+        </Box>
+    </Box>
+
+    <Box style={{ position: 'absolute', top: 690, left: 46, right: 46, flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
+        <Text style={{ fontSize: 14, color: '#8B97A8' }}>柯桥 · 水乡IP造物台</Text>
+        <Text style={{ fontSize: 14, color: '#1E4FA8', fontWeight: 'bold' }}>09 / 14</Text>
+    </Box>
+</Slide>

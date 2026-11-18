@@ -1,0 +1,21 @@
+<Slide style={{ width: 1280, height: 720, position: 'relative', background: '#0B3480', fontFamily: '微软雅黑' }}>
+    <Image src='assets/shot_1.jpg' style={{ position: 'absolute', top: 0, right: 0, width: 700, height: 720, objectFit: 'cover' }} />
+    <Box style={{ position: 'absolute', top: 0, right: 0, width: 700, height: 720, background: 'linear-gradient(90deg, #0B3480 0%, rgba(11,52,128,0.30) 42%, rgba(11,52,128,0) 100%)' }} />
+    <Box style={{ position: 'absolute', top: 0, right: 0, width: 700, height: 720, background: 'linear-gradient(0deg, rgba(11,52,128,0.60) 0%, rgba(11,52,128,0) 46%)' }} />
+    <Box style={{ position: 'relative', zIndex: 2, width: 664, height: 720, paddingTop: 78, paddingLeft: 66, paddingRight: 42, paddingBottom: 58, flexDirection: 'column', justifyContent: 'space-between' }}>
+        <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 14 }}>
+            <Box style={{ width: 44, height: 4, background: '#C0392B' }} />
+            <Text style={{ fontSize: 16, color: '#BFD4F0', letterSpacing: 2 }}>数字创意与 AIGC 应用赛道</Text>
+        </Box>
+        <Box style={{ flexDirection: 'column', gap: 18 }}>
+            <Text style={{ fontSize: 46, color: '#BFD4F0', letterSpacing: 8 }}>柯桥 · 水乡</Text>
+            <Text style={{ fontSize: 84, fontWeight: 'bold', color: '#FFFFFF', letterSpacing: 2, lineHeight: 1.0 }}>IP 造物台</Text>
+            <Box style={{ width: 120, height: 5, background: '#C0392B', marginTop: 10 }} />
+            <Text style={{ fontSize: 20, color: '#DCE8F8', lineHeight: 1.6 }}>支持多模态的「创编一体」全链路 AIGC 创作工作台</Text>
+        </Box>
+        <Box style={{ flexDirection: 'column', gap: 9 }}>
+            <Text style={{ fontSize: 17, color: '#9DB8DC' }}>绍兴市第一届人工智能应用竞赛</Text>
+            <Text style={{ fontSize: 17, color: '#9DB8DC' }}>主题一（绍兴柯桥区地方文旅宣传） · 选项 B 原创柯桥专属旅游 IP 形象</Text>
+        </Box>
+    </Box>
+</Slide>
