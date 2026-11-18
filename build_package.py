@@ -5,10 +5,11 @@
 """
 import os, shutil, zipfile, sys
 
-ROOT = r"C:\Users\kybll\Desktop\AIGC\keqiao-ip-studio"
-WSC  = r"C:\Users\kybll\Desktop\AIGC"
-OUT  = r"C:\Users\kybll\Desktop\柯桥水乡IP造物台_参赛交付包"
-ZIP  = r"C:\Users\kybll\Desktop\柯桥水乡IP造物台_参赛交付包.zip"
+# 路径基于脚本自身位置推导，可直接拷贝到任意机器运行
+ROOT = os.path.dirname(os.path.abspath(__file__))
+WSC  = os.path.dirname(ROOT)
+OUT  = os.path.join(WSC, "柯桥水乡IP造物台_参赛交付包")
+ZIP  = OUT + ".zip"
 
 # ---------- 清理旧产物 ----------
 for p in (OUT, ZIP):

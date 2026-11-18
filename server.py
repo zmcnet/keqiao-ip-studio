@@ -41,7 +41,7 @@ PORT = int(os.environ.get("PORT", CONFIG.get("port", 8899)))
 
 # 允许的浏览器来源（host 白名单）；非白名单来源一律拒绝，防止代理被跨站滥用。
 # 本地默认放行回环地址；线上通过环境变量 ALLOWED_HOSTS 追加（逗号分隔），例如：
-#   ALLOWED_HOSTS=demo.kybll.cn,www.demo.kybll.cn
+#   ALLOWED_HOSTS=your-domain.example.com,www.your-domain.example.com
 ALLOW_HOSTS = {"127.0.0.1", "localhost", "::1"}
 _extra_hosts = os.environ.get("ALLOWED_HOSTS", "").strip()
 if _extra_hosts:

@@ -3,7 +3,7 @@
 import os, sys, glob
 import win32com.client as win32
 
-src = r"c:\Users\kybll\Desktop\AIGC\keqiao-ip-studio\dist\[队伍编号]说明文档.docx"
+src = os.path.join(os.path.dirname(os.path.abspath(__file__)), "dist", "[队伍编号]说明文档.docx")
 pdf = os.path.join(os.environ['TEMP'], "kq_doc_check.pdf")
 
 word = win32.gencache.EnsureDispatch("Word.Application")
